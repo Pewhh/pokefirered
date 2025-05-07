@@ -3356,7 +3356,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_HAIL] =
     {
-        .effect = EFFECT_HAIL | EFFECT_DEFENSE_UP_2,
+        .effect = EFFECT_HAIL | EFFECT_DEFENSE_UP_2, // need changes
         .power = 0,
         .type = TYPE_ICE,
         .accuracy = 0,
